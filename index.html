@@ -201,11 +201,9 @@ const BRAND = {
   disciplines: ['حملات إعلانية', 'محتوى رقمي', 'إدارة حسابات', 'هوية وتصميم', 'إنتاج مرئي', 'مواقع ومتاجر'],
   /* ضع روابط الحسابات هنا؛ الفارغ منها يختفي تلقائياً */
   social: [
-    { key: 'snapchat',  label: 'سناب شات', url: '#' },
-    { key: 'x',         label: 'إكس',      url: '#' },
-    { key: 'facebook',  label: 'فيسبوك',   url: '#' },
-    { key: 'youtube',   label: 'يوتيوب',   url: '#' },
-    { key: 'instagram', label: 'إنستقرام', url: '#' },
+    { key: 'instagram', label: 'إنستقرام', url: 'https://www.instagram.com/afnadsana' },
+    { key: 'tiktok',    label: 'تيك توك',  url: 'https://www.tiktok.com/@afnad_sana' },
+    { key: 'x',         label: 'إكس',      url: 'https://x.com/AfnadSana' },
   ],
 };
 
@@ -272,6 +270,7 @@ const SOCIAL_ICONS = {
   facebook:  (p) => <Icon fill {...p}><path d="M13.5 21v-7.5h2.6l.4-3.1h-3V8.5c0-.9.25-1.5 1.55-1.5h1.6V4.2c-.3-.04-1.25-.12-2.35-.12-2.3 0-3.9 1.4-3.9 4v2.3H7.8v3.1h2.6V21z" /></Icon>,
   youtube:   (p) => <Icon fill {...p}><path d="M21.6 7.2a2.5 2.5 0 0 0-1.75-1.77C18.3 5 12 5 12 5s-6.3 0-7.85.43A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.75 1.77C5.7 19 12 19 12 19s6.3 0 7.85-.43a2.5 2.5 0 0 0 1.75-1.77A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3z" /></Icon>,
   instagram: (p) => <Icon {...p}><rect x="3.4" y="3.4" width="17.2" height="17.2" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="16.9" cy="7.1" r="1.1" fill="currentColor" stroke="none" /></Icon>,
+  tiktok:    (p) => <Icon fill {...p}><path d="M16.6 2.5h-3.2v13.1a2.6 2.6 0 1 1-2.6-2.6c.24 0 .47.03.7.09v-3.3a6 6 0 0 0-.7-.05 5.9 5.9 0 1 0 5.9 5.9V9.1a7.2 7.2 0 0 0 4.2 1.35V7.2a4 4 0 0 1-4.3-4.7z" /></Icon>,
 };
 
 /* سهم الخروج معكوس أفقياً ليشير إلى الأعلى-يسار كما يقتضي اتجاه RTL */
